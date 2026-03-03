@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Architects — Specialist-Led Dental Care in Bengaluru | 22+ Years</title>
+  <meta name="description" content="Dental Architects is a multi-specialty dental clinic in BTM 1st Stage, Bengaluru. 22+ years of specialist-led dental, surgical, and cosmetic care by Dr. Sanjay N (Orthodontics) and Dr. Sudhakara Reddy (Oral Surgery)." />
+  <meta name="keywords" content="dentist bengaluru, dental clinic btm layout, orthodontist bengaluru, dental implants bengaluru, cosmetic dentistry, oral surgery bengaluru" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dentalarchitects.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dental Architects — Specialist-Led Dental Care in Bengaluru" />
+  <meta property="og:description" content="22+ years of comprehensive dental care. Multi-specialty treatments by experienced specialists in BTM 1st Stage, Bengaluru." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dentalarchitects.in/" />
+  <meta property="og:image" content="Logo.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="Logo.jpg" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ============================
+       HEADER / NAVIGATION
+       ============================ -->
+  <header class="header header--transparent" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="Dental Architects Home">
+        <img src="Logo.jpg" alt="Dental Architects Logo" />
+      </a>
+
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="#about" class="header__nav-link">About</a>
+        <a href="#services" class="header__nav-link">Services</a>
+        <a href="#doctors" class="header__nav-link">Our Doctors</a>
+        <a href="#testimonials" class="header__nav-link">Reviews</a>
+        <a href="#contact" class="header__nav-link">Contact</a>
+      </nav>
+
+      <div class="header__cta">
+        <a href="tel:+919876543210" class="header__phone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href="#contact" class="btn btn-primary header__book-btn" id="headerBookBtn">Book Consultation</a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="header__menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" class="mobile-nav__link" onclick="closeMobileNav()">About</a>
+    <a href="#services" class="mobile-nav__link" onclick="closeMobileNav()">Services</a>
+    <a href="#doctors" class="mobile-nav__link" onclick="closeMobileNav()">Our Doctors</a>
+    <a href="#testimonials" class="mobile-nav__link" onclick="closeMobileNav()">Reviews</a>
+    <a href="#contact" class="mobile-nav__link" onclick="closeMobileNav()">Contact</a>
+    <div class="mobile-nav__cta">
+      <a href="tel:+919876543210" class="btn btn-secondary" onclick="closeMobileNav()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Clinic
+      </a>
+      <a href="#contact" class="btn btn-primary" onclick="closeMobileNav()">Book Consultation</a>
+    </div>
+  </div>
+
+  <!-- ============================
+       HERO SECTION
+       ============================ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="clinic_hero_bg.png" alt="Modern dental clinic interior" />
+    </div>
+
+    <!-- Geometric SVG Decoration -->
+    <div class="hero__geometric">
+      <svg viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="300,50 520,180 520,420 300,550 80,420 80,180" stroke="rgba(212,160,23,0.6)" stroke-width="1" fill="none"/>
+        <polygon points="300,100 470,200 470,400 300,500 130,400 130,200" stroke="rgba(212,160,23,0.4)" stroke-width="0.5" fill="none"/>
+        <polygon points="300,150 420,220 420,380 300,450 180,380 180,220" stroke="rgba(212,160,23,0.3)" stroke-width="0.5" fill="none"/>
+        <line x1="300" y1="50" x2="300" y2="550" stroke="rgba(212,160,23,0.15)" stroke-width="0.5"/>
+        <line x1="80" y1="300" x2="520" y2="300" stroke="rgba(212,160,23,0.15)" stroke-width="0.5"/>
+      </svg>
+    </div>
+
+    <div class="container hero__content">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        22+ Years of Specialist Dental Care
+      </div>
+
+      <h1 class="hero__title">
+        Precision Dentistry,<br/>
+        <span>Architected</span> for You.
+      </h1>
+
+      <p class="hero__subtitle">
+        Comprehensive multi-specialty dental, surgical, and cosmetic treatments delivered by experienced specialists in Bengaluru.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn-primary" id="heroBookBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Consultation
+        </a>
+        <a href="tel:+919876543210" class="btn btn-secondary" id="heroCallBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+      </div>
+
+      <div class="hero__trust">
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="hero__trust-text">
+            <span class="hero__trust-value" data-count="22">22+</span>
+            <span class="hero__trust-label">Years Experience</span>
+          </div>
+        </div>
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="hero__trust-text">
+            <span class="hero__trust-value">97%</span>
+            <span class="hero__trust-label">Patient Approval</span>
+          </div>
+        </div>
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="hero__trust-text">
+            <span class="hero__trust-value">5.0</span>
+            <span class="hero__trust-label">Google Rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       RATINGS BAR
+       ============================ -->
+  <section class="ratings-bar" id="ratingsBar">
+    <div class="container ratings-bar__inner">
+      <div class="ratings-bar__item">
+        <span class="ratings-bar__source">Google Reviews</span>
+        <div class="ratings-bar__stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <span class="ratings-bar__score">5.0</span>
+        <span class="ratings-bar__count">300+ reviews</span>
+      </div>
+
+      <div class="ratings-bar__divider"></div>
+
+      <div class="ratings-bar__item">
+        <span class="ratings-bar__source">Justdial</span>
+        <div class="ratings-bar__stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <span class="ratings-bar__score">4.9</span>
+        <span class="ratings-bar__count">300+ ratings</span>
+      </div>
+
+      <div class="ratings-bar__divider"></div>
+
+      <div class="ratings-bar__item">
+        <span class="ratings-bar__source">Patient Satisfaction</span>
+        <span class="ratings-bar__score">97%</span>
+        <span class="ratings-bar__count">Approval Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       ABOUT SECTION
+       ============================ -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__content animate-on-scroll">
+        <span class="section-label">About the Practice</span>
+        <h2 class="section-title">Two Decades of <br/>Structured Expertise</h2>
+        <p class="about__text">
+          Dental Architects is a comprehensive multi-specialty dental clinic in BTM 1st Stage, Bengaluru. With over 22 years of consistent clinical practice, the clinic offers advanced dental, surgical, and cosmetic treatments under the direct care of experienced specialists.
+        </p>
+        <p class="about__text">
+          The clinic brings together orthodontic precision and surgical expertise, covering a complete spectrum of dental needs — from routine preventive care to complex implant procedures and full-mouth rehabilitation.
+        </p>
+
+        <div class="about__features">
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="about__feature-text">
+              <h4>Specialist-Led</h4>
+              <p>MDS-qualified specialists for every procedure</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="about__feature-text">
+              <h4>Advanced Equipment</h4>
+              <p>Modern diagnostic and treatment technology</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="about__feature-text">
+              <h4>Extended Hours</h4>
+              <p>Open until 10 PM for your convenience</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="about__feature-text">
+              <h4>Multi-Specialty</h4>
+              <p>Complete dental care under one roof</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__stats animate-on-scroll">
+        <div class="about__stat">
+          <div class="about__stat-number" data-target="22" data-suffix="+">22+</div>
+          <div class="about__stat-label">Years of Practice</div>
+        </div>
+        <div class="about__stat">
+          <div class="about__stat-number" data-target="10000" data-suffix="+">10,000+</div>
+          <div class="about__stat-label">Patients Treated</div>
+        </div>
+        <div class="about__stat">
+          <div class="about__stat-number" data-target="300" data-suffix="+">300+</div>
+          <div class="about__stat-label">5-Star Reviews</div>
+        </div>
+        <div class="about__stat">
+          <div class="about__stat-number" data-target="97" data-suffix="%">97%</div>
+          <div class="about__stat-label">Patient Approval</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       SERVICES SECTION
+       ============================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header animate-on-scroll">
+        <span class="section-label">Our Specializations</span>
+        <h2 class="section-title">Comprehensive Dental <br/>Treatment Clusters</h2>
+        <p class="section-subtitle">
+          Structured treatment categories, each managed by specialists with focused expertise and years of clinical practice.
+        </p>
+      </div>
+
+      <div class="services__clusters">
+        <!-- Orthodontics -->
+        <div class="service-cluster animate-on-scroll">
+          <div class="service-cluster__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3 class="service-cluster__title">Orthodontics</h3>
+          <p class="service-cluster__desc">
+            Expert alignment and bite correction using advanced braces systems and smile design protocols. Led by an MDS Orthodontics specialist with 21+ years of focused practice.
+          </p>
+          <div class="service-cluster__list">
+            <span class="service-cluster__tag">Braces</span>
+            <span class="service-cluster__tag">Smile Design</span>
+          </div>
+        </div>
+
+        <!-- Implants & Restorative -->
+        <div class="service-cluster animate-on-scroll">
+          <div class="service-cluster__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="service-cluster__title">Implants & Restorative</h3>
+          <p class="service-cluster__desc">
+            Permanent tooth replacement with precision-placed dental implants and custom prosthetics. Full-arch rehabilitation and single-tooth solutions with predictable outcomes.
+          </p>
+          <div class="service-cluster__list">
+            <span class="service-cluster__tag">Dental Implants</span>
+            <span class="service-cluster__tag">Crowns</span>
+            <span class="service-cluster__tag">Bridges</span>
+            <span class="service-cluster__tag">Dentures</span>
+          </div>
+        </div>
+
+        <!-- Cosmetic Dentistry -->
+        <div class="service-cluster animate-on-scroll">
+          <div class="service-cluster__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="service-cluster__title">Cosmetic Dentistry</h3>
+          <p class="service-cluster__desc">
+            Aesthetic dental treatments that enhance your natural smile. From porcelain veneers to professional whitening, each procedure is planned with precision and visual accuracy.
+          </p>
+          <div class="service-cluster__list">
+            <span class="service-cluster__tag">Veneers</span>
+            <span class="service-cluster__tag">Teeth Whitening</span>
+            <span class="service-cluster__tag">Tooth-Coloured Fillings</span>
+            <span class="service-cluster__tag">Cosmetic Procedures</span>
+          </div>
+        </div>
+
+        <!-- Surgical & Advanced -->
+        <div class="service-cluster animate-on-scroll">
+          <div class="service-cluster__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+          </div>
+          <h3 class="service-cluster__title">Surgical & Advanced</h3>
+          <p class="service-cluster__desc">
+            Complex oral surgical procedures handled by an MDS Oral & Maxillofacial Surgery specialist. Includes single-sitting root canal therapy and advanced diamond-finish restorations.
+          </p>
+          <div class="service-cluster__list">
+            <span class="service-cluster__tag">Oral Surgery</span>
+            <span class="service-cluster__tag">Single Sitting Root Canal</span>
+            <span class="service-cluster__tag">Dental Diamond</span>
+          </div>
+        </div>
+
+        <!-- Pediatric Dentistry -->
+        <div class="service-cluster animate-on-scroll">
+          <div class="service-cluster__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="service-cluster__title">Pediatric Dentistry</h3>
+          <p class="service-cluster__desc">
+            Gentle, child-friendly dental care designed to build healthy habits early. Preventive treatments, early orthodontic assessments, and a comfortable environment for young patients.
+          </p>
+          <div class="service-cluster__list">
+            <span class="service-cluster__tag">Child Dentistry</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       DOCTORS SECTION
+       ============================ -->
+  <section class="doctors" id="doctors">
+    <div class="container">
+      <div class="doctors__header animate-on-scroll">
+        <span class="section-label">Lead Specialists</span>
+        <h2 class="section-title">Your Care, Led by <br/>Experienced Specialists</h2>
+        <p class="section-subtitle">
+          Each treatment is planned and executed by doctors with decades of focused clinical practice and specialist qualifications.
+        </p>
+      </div>
+
+      <div class="doctors__grid">
+        <!-- Dr. Sanjay N -->
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-card__photo">
+            <img src="dr-sanjay.jpg" alt="Dr. Sanjay N — Orthodontist at Dental Architects" />
+          </div>
+          <h3 class="doctor-card__name">Dr. Sanjay N</h3>
+          <p class="doctor-card__quals">BDS, MDS (Orthodontics)</p>
+          <div class="doctor-card__experience">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            21+ Years Experience
+          </div>
+          <p class="doctor-card__specialization">
+            <strong>Specialist in Orthodontics.</strong> Dr. Sanjay brings two decades of focused expertise in teeth alignment, functional bite correction, and comprehensive smile design using advanced braces systems.
+          </p>
+        </div>
+
+        <!-- Dr. Sudhakara Reddy -->
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-card__photo">
+            <img src="dr-sudhakara-reddy.jpg" alt="Dr. Sudhakara Reddy — Oral & Maxillofacial Surgeon at Dental Architects" />
+          </div>
+          <h3 class="doctor-card__name">Dr. Sudhakara Reddy</h3>
+          <p class="doctor-card__quals">BDS, MDS (Oral & Maxillofacial Surgery), FICOI, DICOI</p>
+          <div class="doctor-card__experience">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            22+ Years Experience
+          </div>
+          <p class="doctor-card__specialization">
+            <strong>Specialist in Oral & Maxillofacial Surgery.</strong> Dr. Sudhakara Reddy holds internationally recognized implant certifications (FICOI, DICOI) with extensive experience in complex surgical procedures, implant placements, and full-mouth rehabilitation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TESTIMONIALS SECTION
+       ============================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials__header animate-on-scroll">
+        <span class="section-label">Patient Stories</span>
+        <h2 class="section-title">What Our Patients <br/>Have to Say</h2>
+        <p class="section-subtitle">
+          Hundreds of patients trust Dental Architects for their dental care. Here are some of their experiences.
+        </p>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial-card animate-on-scroll">
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">
+            "Dr. Sudhakara Reddy handled my implant procedure with exceptional precision. The entire process was transparent, well-explained, and the results have been exactly as planned. Very grateful for the care."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RK</div>
+            <div class="testimonial-card__author-info">
+              <h5>Rajesh K.</h5>
+              <p>Dental Implants Patient</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">
+            "My daughter's orthodontic treatment with Dr. Sanjay was a great experience. He was patient, methodical, and the alignment results were excellent. The clinic is clean and well-maintained."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">PS</div>
+            <div class="testimonial-card__author-info">
+              <h5>Priya S.</h5>
+              <p>Orthodontics Patient (Parent)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <span class="testimonial-card__quote">"</span>
+          <div class="testimonial-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">
+            "Had a root canal done in a single sitting — quick, painless, and professional. The doctors explain everything clearly before proceeding. Been visiting for over 5 years with consistent quality."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AM</div>
+            <div class="testimonial-card__author-info">
+              <h5>Anil M.</h5>
+              <p>Root Canal Patient</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CTA SECTION
+       ============================ -->
+  <section class="cta-section">
+    <div class="container cta-section__inner">
+      <h2 class="cta-section__title">Ready to Schedule Your <span class="text-gold">Consultation</span>?</h2>
+      <p class="cta-section__subtitle">
+        Speak with our specialists to discuss your dental needs. On-call consultation available.
+      </p>
+      <div class="cta-section__actions">
+        <a href="#contact" class="btn btn-primary" id="ctaBookBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Consultation
+        </a>
+        <a href="tel:+919876543210" class="btn btn-secondary" id="ctaCallBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CONTACT / LOCATION SECTION
+       ============================ -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info animate-on-scroll">
+        <span class="section-label">Visit Us</span>
+        <h2 class="section-title">Location & Contact</h2>
+        <p class="section-subtitle">
+          Conveniently located in BTM 1st Stage, Bengaluru. Walk-in or schedule an appointment.
+        </p>
+
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact__detail-text">
+              <h4>Address</h4>
+              <p>BTM 1st Stage, Bengaluru,<br/>Karnataka, India</p>
+            </div>
+          </div>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact__detail-text">
+              <h4>Phone</h4>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+          </div>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact__detail-text">
+              <h4>Email</h4>
+              <p><a href="mailto:info@dentalarchitects.in">info@dentalarchitects.in</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__hours">
+          <h4>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;color:var(--gold-500)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Clinic Hours
+          </h4>
+          <div class="contact__hours-grid">
+            <div class="contact__hours-row">
+              <span class="contact__hours-day">Monday – Saturday</span>
+              <span class="contact__hours-time">10:00 AM – 10:00 PM</span>
+            </div>
+            <div class="contact__hours-row">
+              <span class="contact__hours-day">Sunday</span>
+              <span class="contact__hours-time">By Appointment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__map animate-on-scroll">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5969068999783!2d77.6095!3d12.9165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU1JzAyLjQiTiA3N8KwMzYnMzIuMiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          title="Dental Architects Clinic Location — BTM 1st Stage, Bengaluru"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="Logo.jpg" alt="Dental Architects" />
+          <p>
+            A comprehensive multi-specialty dental clinic with over 22 years of trusted care in BTM 1st Stage, Bengaluru. Specialist-led dental, surgical, and cosmetic treatments.
+          </p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Orthodontics</a></li>
+            <li><a href="#services">Dental Implants</a></li>
+            <li><a href="#services">Cosmetic Dentistry</a></li>
+            <li><a href="#services">Oral Surgery</a></li>
+            <li><a href="#services">Pediatric Dentistry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#doctors">Our Doctors</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="mailto:info@dentalarchitects.in">info@dentalarchitects.in</a></li>
+            <li><a href="#contact">BTM 1st Stage, Bengaluru</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Dental Architects. All rights reserved.</p>
+        <p>Invest in your smile... you wear it every time.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>
